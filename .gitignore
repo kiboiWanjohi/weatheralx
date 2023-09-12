@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 #code
-/src/components/services/WeatherService.js
+/src/components/services/Weather
 /Weather.js
 .env
 Weather.js
