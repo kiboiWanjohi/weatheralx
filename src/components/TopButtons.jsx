@@ -2,10 +2,10 @@ import React from "react";
 
 function TopButtons({ setQuery }) {
   const cities = [
-    { id: 1, title: "London" },
-    { id: 2, title: "Sydney" },
-    { id: 3, title: "Canada" },
-    { id: 4, title: "Toronto" },
+    { id: 1, title: "Nairobi" },
+    { id: 2, title: "Mombasa" },
+    { id: 3, title: "Naivasha" },
+    { id: 4, title: "Garissa" },
   ];
 
   return (
