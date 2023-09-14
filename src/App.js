@@ -9,6 +9,7 @@ import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import TimeAndLocation from "./components/TimeAndLocation";
 import TopButtons from "./components/TopButtons";
 import getFormattedWeatherData from "./components/services/WeatherService";
+import Title from "./components/Title";
 
 function App() {
   const [query, setQuery] = useState({ q: "Nairobi" });
@@ -43,6 +44,7 @@ function App() {
     <div
       className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}
     >
+      <Title />
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
       {weather && (

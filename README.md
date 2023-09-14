@@ -2,7 +2,7 @@ WeatherALX is a one page weather forecasting website that provides hourly and da
 
 # Introduction
 
-Link to deployed site -
+Link to deployed site - https://sam-weather-alx.netlify.app
 Blog Article -
 Author - wanjohiKiboi
 LinkedIn - https://www.linkedin.com/in/sammy-wanjohi-kiboi/
@@ -73,4 +73,4 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 Screenshot
-![Alt text](WScreenshot.png)
+![Alt text](WSScreenshot.png)
